@@ -131,8 +131,7 @@ while 1:
             with open(file_log_911, 'a') as f_log:
                 file_csv_write = csv.writer(f_log, lineterminator='\n')
                 file_csv_write.writerow([call_time, data[8], data[29], call_duration, data[56], data[57], data[53]])
-            print(\
-            '''
+            print('''
             Call Alert\n
              Date and Time: {call_time}
             Calling Number: {data[8]}
